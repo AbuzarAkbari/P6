@@ -50,20 +50,40 @@ public class OVChipkaartHibernate {
                 '}';
     }
 
-    public int getKaart_nummer() {return kaart_nummer;}
-    public void setKaart_nummer(int kaart_nummer) {this.kaart_nummer = kaart_nummer;}
+    public int getKaart_nummer() {
+        return kaart_nummer;
+    }
+    public void setKaart_nummer(int kaart_nummer) {
+        this.kaart_nummer = kaart_nummer;
+    }
 
-    public Date getGeldigTot() {return geldigTot;}
-    public void setGeldigTot(Date geldigTot) {this.geldigTot = geldigTot;}
+    public Date getGeldigTot() {
+        return geldigTot;
+    }
+    public void setGeldigTot(Date geldigTot) {
+        this.geldigTot = geldigTot;
+    }
 
-    public int getKlasse() {return klasse;}
-    public void setKlasse(int klasse) {this.klasse = klasse;}
+    public int getKlasse() {
+        return klasse;
+    }
+    public void setKlasse(int klasse) {
+        this.klasse = klasse;
+    }
 
-    public Double getSaldo() {return saldo;}
-    public void setSaldo(Double saldo) {this.saldo = saldo;}
+    public Double getSaldo() {
+        return saldo;
+    }
+    public void setSaldo(Double saldo) {
+        this.saldo = saldo;
+    }
 
-    public int getReiziger_id() {return reiziger_id;}
-    public void setReiziger_id(int reiziger_id) {this.reiziger_id = reiziger_id;}
+    public int getReiziger_id() {
+        return reiziger_id;
+    }
+    public void setReiziger_id(int reiziger_id) {
+        this.reiziger_id = reiziger_id;
+    }
 
     public ReizigerHibernate getReiziger() {
         return reiziger;
